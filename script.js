@@ -79,6 +79,15 @@ $(document).ready(function(){
 	
 	$(".extCenter").click(function(){
 		
+		if(m==="out2c") {
+			$(".content").css("backgroundColor", "#BCEBB0");
+		}else if(m==="out3c") {
+			$(".content").css("backgroundColor", "#CDB0EB");
+		}else if(m==="out4c") {
+			$(".content").css("backgroundColor", "#EBB0C5");
+		}
+		
+		
 		if(m==="out1l") {
 			m="out2c";
 		}else if(m==="out2b") {
@@ -92,6 +101,8 @@ $(document).ready(function(){
 		}else if(m==="out4b") {
 			m="out1b";
 		}
+		
+		
 		
 		
 		console.log(i(m));
