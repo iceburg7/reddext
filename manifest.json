@@ -6,7 +6,7 @@
     {
       "matches": ["http://*.reddit.com/*"],
       "css": ["style.css"],
-	  "js": ["script.js"]
+	  "js": ["jquery.js", "script.js"]
     }
   ],
   "manifest_version": 2  
