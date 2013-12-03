@@ -9,5 +9,12 @@
 	  "js": ["jquery.js", "script.js"]
     }
   ],
-  "manifest_version": 2  
+  "manifest_version": 2,
+  "web_accessible_resources": [
+       "images/out1l.jpg",
+	   "images/out1.jpg",
+	   "images/out1r.jpg",
+	   "images/out1c.jpg",
+	   "images/out1b.jpg"
+     ]
 }
