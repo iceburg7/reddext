@@ -15,8 +15,26 @@ $(document).ready(function(){
 	//console.log(i);
 	
 	
+//	var i = function(y){
+//		var z = "url('chrome-extension://abkoboicdeinnhabhahlppippgiemaoh/images/" + y + ".jpg')";
+//		return z;
+//	};
+	
+	
+//	var imgurl = chrome.extension.getURL('images/out1c.jpg');
+//	console.log(imgurl);
+//	var imgid = imgurl.substring(0, (imgurl.length - 16));
+//	console.log(imgid);
+	
 	var i = function(y){
-		var z = "url('chrome-extension://cpbbhfbacabkajlogkmcdkjifbdmpegn/images/" + y + ".jpg')";
+	
+		var imgurl = chrome.extension.getURL('images/out1c.jpg');
+		console.log(imgurl);
+		var imgid = imgurl.substring(0, (imgurl.length - 9));
+		console.log(imgid);
+	
+		var z = "url('" + imgid + y + ".jpg')";
+		console.log(z);
 		return z;
 	};
 	
