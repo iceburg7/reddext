@@ -39,6 +39,16 @@ $(document).ready(function(){
 			m="out1c";
 		}
 		
+		if(m==="out2c") {
+			m="out2l";
+		}else if(m==="out2l") {
+			m="out2b";
+		}else if(m==="out2b") {
+			m="out2r";
+		}else if(m==="out2r") {
+			m="out2c";
+		}
+		
 		
 		console.log(i(m));
 	
@@ -48,8 +58,18 @@ $(document).ready(function(){
 	});
 	
 	$(".extCenter").click(function(){
+		
+		if(m==="out1l") {
+			m="out2c";
+		}else if(m==="out2b") {
+			m="out1b";
+		}
+		
+		
+		console.log(i(m));
+		
 	
-		$(".extWrapper").css("backgroundImage", "gainsboro");
+		$(".extWrapper").css("backgroundImage", i(m));
 		console.log("center");
 	
 	});
@@ -64,6 +84,16 @@ $(document).ready(function(){
 			m="out1l";
 		}else if(m==="out1l") {
 			m="out1c";
+		}
+		
+		if(m==="out2c") {
+			m="out2r";
+		}else if(m==="out2r") {
+			m="out2b";
+		}else if(m==="out2b") {
+			m="out2l";
+		}else if(m==="out2l") {
+			m="out2c";
 		}
 		
 		
