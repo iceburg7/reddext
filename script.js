@@ -49,6 +49,26 @@ $(document).ready(function(){
 			m="out2c";
 		}
 		
+		if(m==="out3c") {
+			m="out3l";
+		}else if(m==="out3l") {
+			m="out3b";
+		}else if(m==="out3b") {
+			m="out3r";
+		}else if(m==="out3r") {
+			m="out3c";
+		}
+		
+		if(m==="out4c") {
+			m="out4l";
+		}else if(m==="out4l") {
+			m="out4b";
+		}else if(m==="out4b") {
+			m="out4r";
+		}else if(m==="out4r") {
+			m="out4c";
+		}
+		
 		
 		console.log(i(m));
 	
@@ -62,6 +82,14 @@ $(document).ready(function(){
 		if(m==="out1l") {
 			m="out2c";
 		}else if(m==="out2b") {
+			m="out1b";
+		}else if(m==="out1c") {
+			m="out3c";
+		}else if(m==="out3b") {
+			m="out1b";
+		}else if(m==="out1r") {
+			m="out4c";
+		}else if(m==="out4b") {
 			m="out1b";
 		}
 		
@@ -94,6 +122,26 @@ $(document).ready(function(){
 			m="out2l";
 		}else if(m==="out2l") {
 			m="out2c";
+		}
+		
+		if(m==="out3c") {
+			m="out3r";
+		}else if(m==="out3r") {
+			m="out3b";
+		}else if(m==="out3b") {
+			m="out3l";
+		}else if(m==="out3l") {
+			m="out3c";
+		}
+		
+		if(m==="out4c") {
+			m="out4r";
+		}else if(m==="out4r") {
+			m="out4b";
+		}else if(m==="out4b") {
+			m="out4l";
+		}else if(m==="out4l") {
+			m="out4c";
 		}
 		
 		
